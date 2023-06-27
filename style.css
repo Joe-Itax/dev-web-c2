@@ -251,5 +251,37 @@ main .welcome h2 {
   }
 }
 /* End section Nos Projets */
-/* -------------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* Start section Moments fort */
+.moment-fort {
+  padding: 5rem 1rem;
+  background-color: #d9d9d9;
+}
+
+.moment-fort h2 {
+  text-align: center;
+  font-weight: 700;
+  line-height: 43px;
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+
+.moment-fort .moment-fort-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1%;
+}
+
+.moment-fort .moment-fort-box .moment-fort-box-img {
+  width: 345px;
+  height: 302px;
+}
+
+.moment-fort .moment-fort-box img {
+  max-width: 100%;
+}
+/* End Section Moments fort */
+/* ------------------------------------------------------ */
 /* Start main */
