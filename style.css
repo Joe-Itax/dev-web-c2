@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 1px red inset;
+
+  /* ctrl + k + c */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* start header */
+header {
+  height: 83px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* End header */
+
+/* Start section welcome */
+main .welcome {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('Img/back.jpg');
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+main .welcome h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 115px;
+  text-align: center;
+}
+
+main .welcome h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  main .welcome h1 {
+    font-size: 70px;
+    line-height: 115px;
+  }
+
+  main .welcome h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  main .welcome {
+    padding: 1rem;
+  }
+  main .welcome h1 {
+    font-size: 50px;
+    line-height: 115px;
+  }
+
+  main .welcome h3 {
+    font-size: 20px;
+  }
+}
+/* Start main */
