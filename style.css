@@ -142,4 +142,114 @@ main .welcome h2 {
 }
 /* End section Programme de formation */
 /* -------------------------------------------------------------- */
+/* Start section Nos Projets */
+.our-projet {
+  padding: 5rem 1rem;
+  text-align: center;
+  background-color: #d39393;
+}
+
+.our-projet h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 3rem;
+}
+
+.our-projet .projet {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  padding: 4rem;
+  margin: auto;
+}
+
+.our-projet .projet .projet-box {
+  display: flex;
+  gap: 2rem;
+  height: 10rem;
+  width: 100%;
+}
+
+.our-projet .projet .projet-box .projet-box-img {
+  width: 256px;
+}
+
+.our-projet .projet .projet-box .projet-box-img img {
+  max-width: 100%;
+}
+
+.our-projet .projet .projet-box .projet-box-details {
+  padding-top: 2%;
+  text-align: left;
+}
+
+.our-projet .projet .projet-box .projet-box-details h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.our-projet .projet .projet-box .projet-box-details p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.our-projet .projet .projet-box .projet-box-details a {
+  text-decoration: none;
+  padding: 8px 1.5rem;
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 19px;
+  text-align: center;
+}
+
+.our-projet .projet .projet-box-renverse {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.our-projet .projet .projet-box-renverse .projet-box-details {
+  text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+  .our-projet .projet {
+    width: 95%;
+    gap: 5rem;
+    padding: 1%;
+  }
+
+  .our-projet .projet .projet-box .projet-box-details h3 {
+    font-size: 24px;
+  }
+
+  .our-projet .projet .projet-box .projet-box-details p {
+    font-size: 20px;
+  }
+
+  .our-projet .projet .projet-box .projet-box-details a {
+    padding: 5px 1rem;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .our-projet .projet .projet-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .our-projet .projet .projet-box .projet-box-details {
+    padding-top: 2%;
+    text-align: center;
+  }
+}
+/* End section Nos Projets */
+/* -------------------------------------------------------------- */
 /* Start main */
