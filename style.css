@@ -280,7 +280,8 @@ main .welcome h2 {
 }
 
 .moment-fort .moment-fort-box img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 /* End Section Moments fort */
 /* ------------------------------------------------------ */
