@@ -276,7 +276,8 @@ main .welcome h2 {
 }
 
 .moment-fort h2,
-.section-coach h2 {
+.section-coach h2,
+.our-team h2 {
   text-align: center;
   font-weight: 700;
   line-height: 43px;
@@ -331,4 +332,24 @@ main .welcome h2 {
 }
 /* End section Nos Coach */
 /* ----------------------------------------------------- */
+
+/* Start section Notre équipe */
+.our-team {
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.our-team img {
+  width: 80%;
+}
+/* End Section Notre équipe */
+/* ------------------------------------------------------ */
+
+/* Start section Mot-délegué */
+/* End section Mot-délegué */
+/* ----------------------------------------------------- */
+
 /* Start main */
