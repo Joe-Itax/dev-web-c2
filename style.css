@@ -255,7 +255,7 @@ main .welcome h2 {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .our-projet .projet .projet-box {
     display: flex;
     flex-direction: column;
