@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  box-shadow: 0 0 0 1px red inset;
+  /* box-shadow: 0 0 0 1px red inset; */
 
   /* ctrl + k + c */
 }
@@ -347,7 +347,17 @@ main .welcome h2 {
 }
 /* End Section Notre équipe */
 /* ------------------------------------------------------ */
+.delegue-word {
+  padding: 5rem 1rem;
+  background-color: #d39393;
+  text-align: center;
+}
 
+.delegue-word p {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43.57px;
+}
 /* Start section Mot-délegué */
 /* End section Mot-délegué */
 /* ----------------------------------------------------- */
